@@ -510,7 +510,7 @@ class _LockPageState extends State<LockPage> {
           _showErrorAndDismiss(errorCode, errorMsg);
         });
         break;
-      case Command.setHotelInfo:
+      case Command.setHotelData:
         String hotelData = "";
         int building = 0;
         int floor = 0;
